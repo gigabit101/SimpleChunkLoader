@@ -34,6 +34,6 @@ public class SimpleChunkLoader
 				"ILI", 
 				"III", 
 				'I', new ItemStack(Items.iron_ingot), 
-				'L', new ItemStack(Items.dye, 4));
+				'L', new ItemStack(Items.dye, 1, 4));
 	}
 }
