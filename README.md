@@ -1,4 +1,4 @@
-The offical repository of TrashCans.
+The offical repository of SimpleChunkLoader.
 
 Building
 =========
