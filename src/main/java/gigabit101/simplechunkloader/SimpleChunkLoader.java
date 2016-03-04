@@ -29,11 +29,11 @@ public class SimpleChunkLoader
 		GameRegistry.registerTileEntity(TileChunkLoader.class, "simplechunkloader");
  		ForgeChunkManager.setForcedChunkLoadingCallback(INSTANCE, new ChunkLoadingHandler());
  		
-        CraftingHelper.addShapedOreRecipe(new ItemStack(chunkloader, 4),
-                "III",
-                "ILI",
-                "III",
-                'I', Items.iron_ingot,
-                'L', Items.dye, 4);
+		GameRegistry.addRecipe(new ItemStack(chunkloader), 
+				"III", 
+				"ILI", 
+				"III", 
+				'I', new ItemStack(Items.iron_ingot), 
+				'L', new ItemStack(Items.dye, 4));
 	}
 }
