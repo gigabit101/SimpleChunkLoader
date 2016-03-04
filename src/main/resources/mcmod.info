@@ -1,0 +1,21 @@
+[
+{
+  "modid": "SimpleChunkLoader",
+  "name": "SimpleChunkLoader",
+  "description": "",
+  "version": "1.0.0",
+  "url": "",
+  "updateUrl": "",
+  "authorList": [
+    "Gigabit101"
+    
+  ],
+  "credits": "",
+  "logoFile": "",
+  "screenshots": [
+  ],
+  "parent":"",
+  "dependencies": [
+  ]
+}
+]
